@@ -4,7 +4,15 @@
 
 ## Rails
 
-Do your weird rails stuff.
+### bundle
+```
+bundle
+```
+
+### run your back end rails server
+```
+rails s
+```
 
 ## Ember
 
