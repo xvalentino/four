@@ -4,9 +4,14 @@
 
 ## Rails
 
-### bundle
+### run bundle
 ```
 bundle
+```
+
+### create your database
+```
+rake db:create db:migrate
 ```
 
 ### run your back end rails server
