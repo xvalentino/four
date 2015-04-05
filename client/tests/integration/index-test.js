@@ -4,18 +4,18 @@ import startApp from '../helpers/start-app'
 var App
 
 module('Index - Integration', {
-  beforeEach: function() {
+  beforeEach: function () {
     App = startApp()
   },
-  afterEach: function() {
+  afterEach: function () {
     Ember.run(App, App.destroy)
   }
 })
 
-test("Page contents", function(assert) {
-  assert.expect(1)
-  visit('/').then(function() {
-    assert.equal(find('<h1>').length, 1, "Page contains a title")
+test("Page contents", function (assert) {
+  assert.expect(2)
+  visit('/').then(function () {
+    assert.ok(findWithAssert('.PostsList'))
+    assert.ok(findWithAssert('.AuthorsList'))
   })
-  // TODO: Write better integration tests.
 })

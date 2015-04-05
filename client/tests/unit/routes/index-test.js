@@ -2,13 +2,14 @@ import {
   moduleFor,
   test
 } from 'ember-qunit'
+import Ember from 'ember'
 
-moduleFor('route:index', 'Unit - Index Route' , {
+moduleFor('route:index', 'Index Route - Unit' , {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 })
 
 test('it exists', function (assert) {
-  var route = this.subject()
+  let route = this.subject()
   assert.ok(route)
 })
