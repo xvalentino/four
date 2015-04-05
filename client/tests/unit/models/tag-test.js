@@ -10,7 +10,6 @@ moduleForModel('tag', 'Post Model', {
 })
 
 test('it exists', function (assert) {
-  let store = this.store()
   let tag = this.subject({
     name: 'music'
   })

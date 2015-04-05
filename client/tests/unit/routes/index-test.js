@@ -4,7 +4,7 @@ import {
 } from 'ember-qunit'
 import Ember from 'ember'
 
-moduleFor('route:index', 'Index Route - Unit' , {
+moduleFor('route:index', 'Index Route - Unit', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 })

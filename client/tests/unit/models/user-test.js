@@ -10,7 +10,6 @@ moduleForModel('user', 'User Model', {
 })
 
 test('it exists', function (assert) {
-  let store = this.store()
   let user = this.subject({
     full_name: 'Talon',
     email: 'talon@theghostin.me',

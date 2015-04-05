@@ -1,4 +1,6 @@
-import Ember from "ember"
+/* global visit findWithAssert */
+
+import Ember from 'ember'
 import { module, test } from 'qunit'
 import startApp from '../helpers/start-app'
 var App
@@ -12,7 +14,7 @@ module('Index - Integration', {
   }
 })
 
-test("Page contents", function (assert) {
+test('Page contents', function (assert) {
   assert.expect(2)
   visit('/').then(function () {
     assert.ok(findWithAssert('.PostsList'))

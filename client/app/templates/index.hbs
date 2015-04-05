@@ -1,6 +1,12 @@
 <div class='AuthorsList'>
   <!-- Should show a list of the sites authors -->
+  {{#each post in model.posts}}
+    <h1>{{post.title}}</h1>
+  {{/each}}
 </div>
 <div class='PostsList'>
   <!-- Should show a list of the most recent posts -->
+  {{#each author in model.authors}}
+    <h1>{{author.full_name}}</h1>
+  {{/each}}
 </div>

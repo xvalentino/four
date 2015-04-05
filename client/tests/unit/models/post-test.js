@@ -10,7 +10,6 @@ moduleForModel('post', 'Post Model', {
 })
 
 test('it exists', function (assert) {
-  let store = this.store()
   let post = this.subject({
     title: 'hello darkness',
     body: '# my old friend\nI\'ve come to talk to you.',
