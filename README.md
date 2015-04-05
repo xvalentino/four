@@ -14,6 +14,11 @@ bundle
 rake db:create db:migrate
 ```
 
+### run tests
+```
+rake test
+```
+
 ### run your back end rails server
 ```
 rails s
