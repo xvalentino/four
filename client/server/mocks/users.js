@@ -6,12 +6,14 @@ module.exports = function (app) {
     {
       id: 0,
       full_name: 'Talon Poole',
+      nickname: 'Talon',
       email: 'talon@theghostin.me',
       bio: '[@legittalon](http://twitter.com/legittalon)'
     },
     {
       id: 1,
       full_name: 'Tino Cochino',
+      nickname: 'Tino',
       email: 'tino@four.io',
       bio: '[@tinocochinotho](http://twitter.com/tinocochinotho)'
     }
