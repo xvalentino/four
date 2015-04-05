@@ -5,9 +5,19 @@ module.exports = function (app) {
   var posts = [
     {
       id: 0,
+      title: 'hello darkness',
+      body: '# my old friend\nI\'ve come to talk to you.',
+      user_id: 0,
+      created_at: (Date.now() - 15 * 60 * 1000),
+      updated_at: (Date.now() - 15 * 60 * 1000)
     },
     {
       id: 1,
+      title: 'hello my old heart',
+      body: '[@legittalon](http://twitter.com/legittalon)',
+      user_id: 0,
+      created_at: (Date.now() - 15 * 60 * 1000),
+      updated_at: (Date.now() - 15 * 60 * 1000)
     }
   ]
 

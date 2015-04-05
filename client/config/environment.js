@@ -1,3 +1,5 @@
+/* jshint node: true */
+
 module.exports = function (environment) {
   var ENV = {
     modulePrefix: 'client',
@@ -42,5 +44,4 @@ module.exports = function (environment) {
   }
 
   return ENV
-
 }

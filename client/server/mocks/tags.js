@@ -5,9 +5,11 @@ module.exports = function (app) {
   var tags = [
     {
       id: 0,
+      name: 'music'
     },
     {
       id: 1,
+      name: 'code'
     }
   ]
 

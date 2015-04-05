@@ -8,7 +8,7 @@ moduleForModel('user', {
 
 })
 
-test('it exists', function(assert) {
+test('it exists', function (assert) {
   var model = this.subject({})
   assert.ok(!!model)
 })
