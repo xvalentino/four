@@ -5,17 +5,15 @@ import {
 import DS from 'ember-data'
 import Ember from 'ember'
 
-moduleForModel('user', 'User Model', {
+moduleForModel('tag', 'Post Model', {
   // Specify the other units that are required for this test.
 })
 
 test('it exists', function (assert) {
   let store = this.store()
-  let user = this.subject({
-    full_name: 'Talon',
-    email: 'talon@theghostin.me',
-    bio: 'a scary ghost'
+  let tag = this.subject({
+    name: 'music'
   })
-  assert.ok(user)
-  assert.ok(user instanceof DS.Model)
+  assert.ok(tag)
+  assert.ok(tag instanceof DS.Model)
 })

@@ -46,5 +46,6 @@
       "dist/assets/**",
       "tmp/**"
     ]
-  }
+  },
+  "dependencies": {}
 }
