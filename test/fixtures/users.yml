@@ -2,14 +2,14 @@
 
 one:
   full_name: MyString
-  password: MyString
+  password_digest: MyString
   email: MyString
   bio: MyString
   image_path: MyString
 
 two:
   full_name: MyString
-  password: MyString
+  password_digest: MyString
   email: MyString
   bio: MyString
   image_path: MyString
